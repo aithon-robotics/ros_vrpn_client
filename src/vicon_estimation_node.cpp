@@ -30,7 +30,7 @@
 #include <memory>
 #include <nav_msgs/msg/odometry.hpp>
 #include <rclcpp/rclcpp.hpp>
-#include <tf2_eigen/tf2_eigen.hpp>
+#include <tf2_eigen/tf2_eigen.h>
 
 #include "vicon_odometry_estimator.hpp"
 
