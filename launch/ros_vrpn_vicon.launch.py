@@ -29,12 +29,13 @@ def generate_launch_description():
     params["object_name"] = model_name
     params["vrpn_server_ip"] = "10.10.10.5"
 
-    return LaunchDescription(
+    return LaunchDescription([
+        model_name_arg,
         Node(
             package="ros_vrpn",
             executable="ros_vrpn_client",
-            namespace=object,
+            namespace=model_name,
             output="screen",
             parameters=[params],
-        )
-    )
+        ),
+    ])
