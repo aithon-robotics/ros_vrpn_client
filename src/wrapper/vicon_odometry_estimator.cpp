@@ -21,7 +21,7 @@
 
 #include "vicon_odometry_estimator.hpp"
 
-#include <tf2_eigen/tf2_eigen.h>
+#include <tf2_eigen/tf2_eigen.hpp>
 
 namespace vicon_estimator
 {

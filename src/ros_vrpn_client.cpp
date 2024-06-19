@@ -49,7 +49,7 @@
 #include <iostream>
 #include <nav_msgs/msg/odometry.hpp>
 #include <rclcpp/rclcpp.hpp>
-#include <tf2_eigen/tf2_eigen.h>
+#include <tf2_eigen/tf2_eigen.hpp>
 
 #include "vicon_odometry_estimator.hpp"
 #include "vrpn_Connection.h"
